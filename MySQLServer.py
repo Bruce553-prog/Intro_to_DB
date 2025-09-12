@@ -5,7 +5,7 @@ def create_database():
     connection = None
     cursor = None
     try:
-        # Update credentials if needed
+       
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
